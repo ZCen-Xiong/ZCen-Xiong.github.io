@@ -534,8 +534,10 @@ blockquote p {
 }
 .author-avatar img {
   width: 100%;
-  max-width: 110px;
+  max-width: 130px;
   border-radius: 50%;
+  filter: contrast(1.35);
+  opacity: 1;
 }
 .author-discrip {
   display: table-cell;
